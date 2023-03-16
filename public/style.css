@@ -1,0 +1,675 @@
+body {
+    margin: 0;
+}
+
+
+.navlist {
+    display: flex;
+    
+    justify-content: space-between;
+    height: 80px;
+    background-color: black;
+    
+}
+.navlist p {
+    position: absolute;
+    top: 37px;
+    margin-left: 30px;
+}
+
+.navTitle {
+    
+    
+    margin-left: 40px;
+    color: azure;
+    font-family: cursive;
+}
+.navTitle h1 {
+    padding-bottom: 10px;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(38, 84, 236, 0.267));
+    animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate{
+    0%, 10%, 20%, 50.1%,60%,90.1%,92%{
+    color: #ef0c39;
+    text-shadow: none;
+    }
+  100%  {
+       color: white;
+       font-size: 30px;
+       text-shadow: 0 0 10px #0bb2e5,
+                   0 0 10px #03bcf4,
+                   0 0 20px #03bcf4,
+                   0 0 40px #03bcf4,
+                   0 0 50px #03bcf4,
+                   0 0 100px #03bcf4,
+    }
+ }
+
+
+.navUl {
+    display: flex;
+    gap: 3rem;
+    margin-right: 100px;
+}
+.navUl li {
+    margin-top: 18px;
+}
+
+ .navli {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.navIcon {
+    display: none;
+}
+               /* HOME STYLES */
+
+.home {
+    
+    position: relative;
+    background-image: url("https://media.giphy.com/media/SWiINoLNvHcAG2ij4C/giphy.gif");
+    padding-bottom: 600px;
+    background-size: cover;
+}
+.homepage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 70%; 
+    background-color: black;  
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 5px 30px;
+}
+.homeh3{
+    margin-top: 100px;
+    font-size: 35px;
+    width: 40%;
+    
+}
+.homeContactbutton {
+    margin-left: 80px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color:  red;
+    border-radius: 10px;
+    /* -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(38, 84, 236, 0.267));
+    animation: animate 2.5s linear infinite; */
+} 
+
+.homepage22 {
+   margin:100px 60px 0px 60px;
+   display: flex;
+   gap: 3rem;
+}
+.homepage22 img {
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+}
+.homepage22 h2 {
+    color: #ef0c39;
+}
+.homepage3 {
+ margin-top: 10px;
+ width: 300px;
+ height: 400px;
+ border-radius: 10px;
+ background-color: white;
+ box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120); 
+ 
+}
+
+ .homepage3 img {
+    width: 300px;
+}
+.homepage3 p{
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  opacity: 50%;
+}
+.homepage3 h3 {
+    text-align: center;
+} 
+.home3 {
+    background-color: rgb(248, 245, 245);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.home3 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.home33 {
+    display: flex;
+    margin-left: 200px;
+    gap: 3rem;
+    
+}
+.home33 button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(189, 139, 139);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.caro {
+    background-color: blue;
+}
+
+.SubNav {
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    bottom: -85px;
+    margin: auto;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+    height: 100px;
+    
+
+    /* border-top-right-radius: 30%;
+    border-top-left-radius: 30%; */
+}
+.SubList {
+    display: flex;
+    gap: 3rem;
+    padding-top: 10px;
+    padding-right: 10%;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.SubList li {
+    margin: auto;
+}
+  .SubList li:hover {
+    
+     border-bottom-style: groove;
+     border-width: 2px;
+     border-color: black;
+  }
+
+.swap  {
+    display: none;
+    
+  }
+  .swap-1 {
+    display: grid;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+    padding: 7px;
+  }
+  .swap-2 {
+    display: grid;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+    padding: 7px;
+    margin-left: 180px;
+  }
+   
+  .swap-3 {
+    
+    display: grid;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+    padding: 7px;
+    margin-left: 480px;
+  }
+   .swap3list {
+    font-size: 18px;
+    padding-right: 5px;
+    align-items: center;
+   }
+
+     /* ABOUT */
+     
+        
+     
+
+    .about1 {
+        position: relative;
+        background-image: url(about1.jpeg);
+        background-size: cover;
+        height: 500px;
+    }
+    .about2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: black;
+        opacity: 70%;
+        height: 500px;
+        color: white;
+        font-size: 40px;
+    }   
+    .about2 h1 {
+        margin-top: 160px;
+    }
+    .about2 p {
+        position: absolute;
+        bottom: 150px;
+        margin-left: 50px;
+    }
+    .about2 p a{
+        color: white;
+        font-size: 20px;
+        
+        text-decoration: none;
+    }
+
+   .aboutpara {
+    width: 70%;
+    opacity: 65%;
+    margin: 10px;
+    font-size: 20px;
+   }
+   /* .aboutpara p { 
+    opacity: 50%;
+   } */
+
+             /* CONTACT */
+
+
+
+         form {
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 600px;
+            margin-top: 40px;
+            background-color: white;
+            box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+            border-radius: 20px;
+            
+         }   
+         form input {
+            height: 50px;
+            border-radius: 10px;
+            margin: 5px;
+            box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+            border: none;
+         }
+         form textarea {
+            height:  400px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+         } 
+         form button {
+            height: 60px;
+            font-size: 20px;
+         }
+         form button:hover {
+            background-color: black;
+            color: white;
+         }
+
+    .contactDown1 {
+        display: flex;
+        gap: 4rem;
+        margin-top: 70px;
+        padding-top: 20px;
+        background-color: rgb(242, 237, 237);
+        opacity: 80%;
+        padding-top: 60px;
+        text-align: center;
+    } 
+     .contactDown3 {
+       display: flex; 
+       margin-left: 100px; 
+       padding-right: 15px;
+    }       
+    .contactDown5 {
+        display: flex;
+        gap: 4rem;
+        cursor: pointer;
+        font-size: 25px;
+    }  
+    .contactDown6 {
+        text-align: center;
+        width:30%;
+        margin: auto;
+        align-items: center;
+    }
+
+
+      /* RESULTS */
+
+      .Result {
+        background-color: black;
+        opacity: 80%;
+        color: white;
+        
+
+      }
+      .Result h1 {
+        text-align: center;
+        margin: auto ;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .ResultIn {
+        
+         
+        text-align: center;  
+      }
+      .resultcopy {
+        color: black;
+        height: 500px;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        box-shadow: 0 0 30px 0 rgb(112, 111, 120, 120);
+      }
+      .ResultInp {
+        border-radius: 20px;
+        padding-left: 25px;
+      }
+      .ResultBut {
+        border-radius: 20px;
+        margin-left: 10px;
+      }
+      .ResultBut:hover {
+        background-color: black;
+        color: white;
+      }
+
+
+@media  (max-width: 1028px) {
+
+    .navlist {
+        height: 200px;
+        font-size: 50px;
+    }
+    .navlist p {
+        position: absolute;
+        top: 50px;
+        margin-left: 30px;
+        font-size: 45px;
+    }
+     .navlist h1 {
+
+        margin-top: 0;
+        padding-bottom: 10px;
+     }
+    .navUl {
+        position: fixed;
+        z-index: 1;
+        flex-direction: column;
+        gap: 3rem;
+        width: 35%;
+        height: 45vh;
+        border-bottom-left-radius: 20px;
+        right: 0; 
+        top: 8vh;
+        background-color: black;
+        opacity: 50%;
+        color: white;
+        right: 100%; 
+        padding-top: 5px;
+        margin-right: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    .navIcon {
+        display: inline;
+        color: white;
+        font-size: 80px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .navli {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+      }
+      .navTitle h1 {
+        margin-top: 20px;
+        font-size: 50px;
+        
+      }
+      .navTitle p {
+        font-size: 35px;
+      }
+      .home {
+        padding-bottom: 1000px;
+      }
+      .homepage {
+        height: 1000px;
+      }
+        
+      .SubNav {
+        position: absolute;
+        bottom: 500px;
+        width: 80%;
+      }
+      .SubList li {
+        font-size: 30px;
+      }
+      .swap-1 {
+        width: 300px;
+        height: 300px;
+        font-size: 30px;
+        
+        
+      }
+      .swap-2 {
+        width: 300px;
+        height: 300px;
+        font-size: 30px;
+        }
+        .swap-3 {
+            width: 300px;
+            height: 300px;
+            margin-left: 350px ;
+            
+            }
+          .swap3list {
+            font-size: 28px;
+          }
+         .Result {
+             height: 600px; 
+         }
+          .resultcopy {
+            padding-bottom: 500px;
+         }  
+         .Result h1 {
+            font-size: 100px;
+         }
+         
+            
+         
+          .ResultInp {
+            height: 50px;
+            width: 30%;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 20px;
+         } 
+         .ResultBut {
+            width: 150px;
+            font-size: 25px;
+            height: 50px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+         }
+
+         .homeh3{
+            margin-top: 300px;
+            font-size: 40px;
+            width: 70%;
+        }
+         .homeContactbutton {
+            
+            width: 260px;
+            height: 70px;
+            font-size: 30px;
+            background-color:  red;
+            border-radius: 10px;
+        } 
+
+        .homepage2 {
+            margin-top: 150px;
+        }
+        .homepage22 {
+            justify-items: auto;
+            display: inline;
+            align-items: center;
+            text-align: center;
+        }
+        .homepage22 img {
+            width: 800px;
+            height: 800px;
+            margin-left: 23px;
+        }
+        .homepage222 h2 {
+            font-size: 50px;
+        }
+        .homepage222 p {
+            margin-top: 40;
+            font-size: 25px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            opacity: 50%;
+        }
+        .homepage222 {
+            margin-top: 60px;
+        }
+        .home33 {
+            margin-bottom: 40px;
+            display: inline-block;
+            align-items: center;
+            margin: auto;
+            
+            }
+            .homepage3 {
+                width: 800px;
+                height: 870px;
+                font-size: 34px;
+                margin-bottom: 50px;
+
+            }
+            .homepage3 p {
+                width: 600px;
+
+            }
+            .homepage3 img {
+                width: 800px;
+                height: 400px;
+            }
+            .homepage3 button {
+                font-size: 30px;
+                margin-top: 20px;
+                width: 250px;
+                height: 100px;
+            }
+            .SubNav {
+                display: none;
+            }
+            .Result {
+                padding-bottom: 600px;
+            }
+            .contactDown1 {
+                display: inline-block;
+                font-size: 35px;
+            }
+            .contactDown3 {
+                margin-left: 0;
+                padding-bottom: 30px;
+            }
+            .contactDown5 {
+                font-size: 60px;
+            }
+            .contactDown6  {
+           width: 70%;
+           font-size: 20px;
+           margin-bottom: 100px;
+            }
+            .contactDown6 p {
+                font-size: 40px;
+            }
+            .aboutpara p {
+                font-size: 30px;
+            }
+            .about2 p {
+                
+                top: 220px;
+            }
+            .about2 p a {
+                font-size: 40px;
+            }
+            form {
+                height: 800px;
+                
+                width: 800px;
+                font-size: 40px;
+            }
+            form label {
+                font-size: 50px;
+                padding: 10px;
+            }
+            form input {
+                height: 100px;
+                font-size: 40px;
+            }
+            form textarea {
+                font-size: 40px;
+            }
+            form button {
+                height: 100px;
+                font-size: 40px;
+                
+            }
+            
+}
+
+.nav_active {
+    right: 0%;
+}
