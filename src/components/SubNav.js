@@ -35,7 +35,7 @@ function SubNav () {
                  <li onMouseOver={mouse} onMouseOut={mouse2}  >Enrolment</li> 
                  <li onMouseOver={mouse3} onMouseOut={mouse4}>Additional Learning</li>
                 <li onMouseOver={mouse5} onMouseOut={mouse6} >Student Services</li>
-                <li>Sister</li>
+                <li>Contact</li>
 
                  </ul>
                  <div className={Sub}>

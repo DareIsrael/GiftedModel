@@ -4,9 +4,12 @@ function Home2 () {
     return (
         <div className="homepage2">
             <div className="homepage22">
-              <img src="home22.jpg" ></img>
+            {/* <div className="homeimg"> */}
+            <img src="home22.jpg" ></img>
+            {/* </div> */}
+             
                  
-                <div className="homepage222">
+                 <div className="homepage222">
                     <h2>WHAT TO EXPECT</h2>
                     <p> Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
@@ -19,7 +22,7 @@ function Home2 () {
                     typesetting industry. Lorem Ipsum has been the industry's 
                     
                      .</p>
-                </div>
+                </div> 
             </div>
         </div>
     )
